@@ -1,0 +1,106 @@
+/* body{
+  background-color: whitesmoke;
+} */
+.location button {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.location button {
+  border: none;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  border-radius: 25px;
+  padding: 0px 25px;
+}
+.Head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  gap: 1em;
+}
+
+.menu-cart {
+  display: flex;
+  gap: 1em;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  gap: 1em;
+  margin-top: 10px;
+}
+
+.order button {
+  border: none;
+  background-color: rgb(229, 17, 17);
+  color: white;
+  border-radius: 25px;
+  padding: 0px 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 5%;
+}
+
+.categories {
+  padding-left: 100px;
+  margin-top: 10%;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.footer img {
+  padding-right: 10%;
+}
+
+.location-img {
+  display: flex;
+}
+
+.onlinepayment {
+  display: flex;
+}
